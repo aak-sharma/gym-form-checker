@@ -1,0 +1,11 @@
+# Create .gitignore file
+echo "
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.mp4
+*.avi
+analyzed_output.mp4
+.DS_Store
+" > .gitignore
